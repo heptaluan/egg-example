@@ -1,0 +1,12 @@
+2019-10-28 18:43:10,381 INFO 1132 [Timer] C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 35209621ms at 2019-10-29 04:30:00.002
+2019-10-28 18:43:10,381 INFO 1132 [Timer] C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 19009619ms at 2019-10-29 00:00:00.000
+2019-10-28 18:43:10,382 INFO 1132 [Timer] C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 19010619ms at 2019-10-29 00:00:01.001
+2019-10-28 18:43:10,284 INFO 12220 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-28 18:43:10,284 INFO 12220 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-28 18:43:10,284 INFO 12220 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 00:00:01,016 INFO 12220 [Job#1572278401016522098548845761] C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2019-10-29 00:00:01,026 INFO 12220 [Job#1572278401016522098548845761] C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 10ms
+2019-10-29 00:00:01,026 INFO 1132 [Timer] C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86398984ms at 2019-10-30 00:00:00.010
+2019-10-29 00:00:02,019 INFO 12220 [Job#1572278402019522108567624511] C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2019-10-29 00:00:02,019 INFO 1132 [Timer] C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86398981ms at 2019-10-30 00:00:01.000
+2019-10-29 00:00:02,059 INFO 12220 [Job#1572278402019522108567624511] C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 40ms

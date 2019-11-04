@@ -1,0 +1,162 @@
+2019-11-01 15:35:17,862 ERROR 9992 [-/127.0.0.1/-/10ms GET /content?id=5] nodejs.TypeError: Cannot read property 'id' of undefined
+    at NewsController.content (C:\Users\Administrator\Desktop\egg-demo\app\controller\news.js:11:27)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg-demo\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 9992
+hostname: 20171128-144629
+
+2019-11-01 15:52:46,867 ERROR 5300 [-/127.0.0.1/-/19ms GET /news] nodejs.SyntaxError: Unexpected token ) in C:\Users\Administrator\Desktop\egg-demo\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+    at new Function (<anonymous>)
+    at Template.compile (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:633:12)
+    at Object.compile (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:392:16)
+    at handleCache (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:215:18)
+    at tryHandleCache (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:254:16)
+    at Object.exports.renderFile (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:485:10)
+    at Promise (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:28:36)
+
+pid: 5300
+hostname: 20171128-144629
+
+2019-11-01 15:54:43,884 ERROR 5300 [-/127.0.0.1/-/17ms GET /news] nodejs.ReferenceError: C:\Users\Administrator\Desktop\egg-demo\app\view\news.html:12
+    10|   
+    11|   <ul>
+ >> 12|     <% for (var i = 0; i < list.lnegth; i++) { %>
+    13|       <li><%= list[i] %></li>
+    14|     <% } %>
+    15|   </ul>
+
+list is not defined
+    10|   
+    11|   <ul>
+ >> 12|     <% for (var i = 0; i < list.lnegth; i++) { %>
+    13|       <li><%= list[i] %></li>
+    14|     <% } %>
+    15|   </ul>
+
+list is not defined
+    at eval (eval at compile (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:633:12), <anonymous>:11:28)
+    at returnedFn (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:668:17)
+    at tryHandleCache (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:254:36)
+    at Object.exports.renderFile (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:485:10)
+    at Promise (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+path: "C:\\Users\\Administrator\\Desktop\\egg-demo\\app\\view\\news.html"
+pid: 5300
+hostname: 20171128-144629
+
+2019-11-01 15:55:34,490 ERROR 5300 [-/127.0.0.1/-/2ms GET /news] nodejs.ReferenceError: C:\Users\Administrator\Desktop\egg-demo\app\view\news.html:12
+    10|   
+    11|   <ul>
+ >> 12|     <% for (var i=0; i<list.lnegth; i++) { %>
+    13|       <li><%= list[i] %></li>
+    14|     <% } %>
+    15|   </ul>
+
+list is not defined
+    10|   
+    11|   <ul>
+ >> 12|     <% for (var i=0; i<list.lnegth; i++) { %>
+    13|       <li><%= list[i] %></li>
+    14|     <% } %>
+    15|   </ul>
+
+list is not defined
+    at eval (eval at compile (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:633:12), <anonymous>:11:24)
+    at returnedFn (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:668:17)
+    at tryHandleCache (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:254:36)
+    at Object.exports.renderFile (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:485:10)
+    at Promise (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+path: "C:\\Users\\Administrator\\Desktop\\egg-demo\\app\\view\\news.html"
+pid: 5300
+hostname: 20171128-144629
+
+2019-11-01 15:55:35,334 ERROR 5300 [-/127.0.0.1/-/3ms GET /news] nodejs.ReferenceError: C:\Users\Administrator\Desktop\egg-demo\app\view\news.html:12
+    10|   
+    11|   <ul>
+ >> 12|     <% for (var i=0; i<list.lnegth; i++) { %>
+    13|       <li><%= list[i] %></li>
+    14|     <% } %>
+    15|   </ul>
+
+list is not defined
+    10|   
+    11|   <ul>
+ >> 12|     <% for (var i=0; i<list.lnegth; i++) { %>
+    13|       <li><%= list[i] %></li>
+    14|     <% } %>
+    15|   </ul>
+
+list is not defined
+    at eval (eval at compile (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:633:12), <anonymous>:11:24)
+    at returnedFn (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:668:17)
+    at tryHandleCache (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:254:36)
+    at Object.exports.renderFile (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:485:10)
+    at Promise (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+path: "C:\\Users\\Administrator\\Desktop\\egg-demo\\app\\view\\news.html"
+pid: 5300
+hostname: 20171128-144629
+
+2019-11-01 15:56:13,200 ERROR 5300 [-/127.0.0.1/-/3ms GET /news] nodejs.ReferenceError: C:\Users\Administrator\Desktop\egg-demo\app\view\news.html:12
+    10|   
+    11|   <ul>
+ >> 12|     <%for(var i=0;i<list.lnegth;i++){%>
+    13|       <li><%= list[i] %></li>
+    14|     <%}%>
+    15|   </ul>
+
+list is not defined
+    10|   
+    11|   <ul>
+ >> 12|     <%for(var i=0;i<list.lnegth;i++){%>
+    13|       <li><%= list[i] %></li>
+    14|     <%}%>
+    15|   </ul>
+
+list is not defined
+    at eval (eval at compile (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:633:12), <anonymous>:11:21)
+    at returnedFn (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:668:17)
+    at tryHandleCache (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:254:36)
+    at Object.exports.renderFile (C:\Users\Administrator\Desktop\egg-demo\node_modules\ejs\lib\ejs.js:485:10)
+    at Promise (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (C:\Users\Administrator\Desktop\egg-demo\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+path: "C:\\Users\\Administrator\\Desktop\\egg-demo\\app\\view\\news.html"
+pid: 5300
+hostname: 20171128-144629
+
