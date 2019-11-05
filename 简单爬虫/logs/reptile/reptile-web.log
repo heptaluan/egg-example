@@ -1,0 +1,203 @@
+2019-11-01 16:40:04,904 ERROR 12104 [-/127.0.0.1/-/5ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find index from 
+    at Map.resolve (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 12104
+hostname: 20171128-144629
+
+2019-11-01 16:40:52,586 ERROR 7760 [-/127.0.0.1/-/8ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find index from 
+    at Map.resolve (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7760
+hostname: 20171128-144629
+
+2019-11-01 16:41:42,438 ERROR 7760 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find index from 
+    at Map.resolve (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7760
+hostname: 20171128-144629
+
+2019-11-01 16:41:43,632 ERROR 7760 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find index from 
+    at Map.resolve (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7760
+hostname: 20171128-144629
+
+2019-11-01 16:57:07,458 ERROR 5140 [-/127.0.0.1/-/211ms GET /news] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at NewsService.getNewsList (C:\Users\Administrator\Desktop\egg-reptile\app\service\news.js:12:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 5140
+hostname: 20171128-144629
+
+2019-11-01 17:59:11,067 ERROR 12532 [-/127.0.0.1/-/24ms GET /news] nodejs.TypeError: Cannot read property 'ip' of undefined
+    at C:\Users\Administrator\Desktop\egg-reptile\app\middleware\forbindip.js:8:30
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg-reptile\app\middleware\print.js:10:11
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 12532
+hostname: 20171128-144629
+
+2019-11-01 17:59:23,224 ERROR 12060 [-/127.0.0.1/-/17ms GET /news] nodejs.TypeError: Cannot read property 'request' of undefined
+    at C:\Users\Administrator\Desktop\egg-reptile\app\middleware\forbindip.js:8:26
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg-reptile\app\middleware\print.js:10:11
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 12060
+hostname: 20171128-144629
+
+2019-11-01 17:59:27,243 ERROR 12060 [-/127.0.0.1/-/2ms GET /news] nodejs.TypeError: Cannot read property 'request' of undefined
+    at C:\Users\Administrator\Desktop\egg-reptile\app\middleware\forbindip.js:8:26
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg-reptile\app\middleware\print.js:10:11
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 12060
+hostname: 20171128-144629
+
+2019-11-01 17:59:28,388 ERROR 10180 [-/127.0.0.1/-/12ms GET /news] nodejs.TypeError: Cannot read property 'request' of undefined
+    at C:\Users\Administrator\Desktop\egg-reptile\app\middleware\forbindip.js:8:26
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg-reptile\app\middleware\print.js:10:11
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 10180
+hostname: 20171128-144629
+
+2019-11-01 18:07:02,845 ERROR 2428 [-/127.0.0.1/-/13ms GET /news] nodejs.Error: Invalid character in statusMessage.
+    at ServerResponse.writeHead (_http_server.js:228:11)
+    at ServerResponse._implicitHeader (_http_server.js:181:8)
+    at write_ (_http_outgoing.js:635:9)
+    at ServerResponse.end (_http_outgoing.js:754:5)
+    at respond (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\lib\application.js:250:16)
+    at handleResponse (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\lib\application.js:164:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2428
+hostname: 20171128-144629
+
+2019-11-01 18:07:07,897 ERROR 2428 [-/127.0.0.1/-/2ms GET /news] nodejs.Error: Invalid character in statusMessage.
+    at ServerResponse.writeHead (_http_server.js:228:11)
+    at ServerResponse._implicitHeader (_http_server.js:181:8)
+    at write_ (_http_outgoing.js:635:9)
+    at ServerResponse.end (_http_outgoing.js:754:5)
+    at respond (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\lib\application.js:250:16)
+    at handleResponse (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\lib\application.js:164:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2428
+hostname: 20171128-144629
+
+2019-11-01 18:07:12,913 ERROR 2428 [-/127.0.0.1/-/2ms GET /news] nodejs.Error: Invalid character in statusMessage.
+    at ServerResponse.writeHead (_http_server.js:228:11)
+    at ServerResponse._implicitHeader (_http_server.js:181:8)
+    at write_ (_http_outgoing.js:635:9)
+    at ServerResponse.end (_http_outgoing.js:754:5)
+    at respond (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\lib\application.js:250:16)
+    at handleResponse (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\lib\application.js:164:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2428
+hostname: 20171128-144629
+
+2019-11-01 18:07:18,131 ERROR 2428 [-/127.0.0.1/-/4ms GET /news] nodejs.Error: Invalid character in statusMessage.
+    at ServerResponse.writeHead (_http_server.js:228:11)
+    at ServerResponse._implicitHeader (_http_server.js:181:8)
+    at write_ (_http_outgoing.js:635:9)
+    at ServerResponse.end (_http_outgoing.js:754:5)
+    at respond (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\lib\application.js:250:16)
+    at handleResponse (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\lib\application.js:164:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2428
+hostname: 20171128-144629
+
+2019-11-01 18:15:38,390 ERROR 1708 [-/::1/-/11ms GET /news] nodejs.TypeError: Cannot read property 'some' of undefined
+    at C:\Users\Administrator\Desktop\egg-reptile\app\middleware\forbindip.js:9:15
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg-reptile\app\middleware\print.js:10:11
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 1708
+hostname: 20171128-144629
+
+2019-11-01 18:15:54,444 ERROR 10776 [-/::1/-/23ms GET /news] nodejs.TypeError: Cannot read property 'some' of undefined
+    at C:\Users\Administrator\Desktop\egg-reptile\app\middleware\forbindip.js:11:15
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg-reptile\app\middleware\print.js:10:11
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\Administrator\Desktop\egg-reptile\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 10776
+hostname: 20171128-144629
+
